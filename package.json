@@ -1,0 +1,42 @@
+{
+  "name": "grainlly-ecom",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.11.1",
+    "@lexical/html": "^0.37.0",
+    "@lexical/list": "^0.37.0",
+    "@lexical/markdown": "^0.37.0",
+    "@lexical/react": "^0.37.0",
+    "@lexical/rich-text": "^0.37.0",
+    "@lexical/selection": "^0.37.0",
+    "@lexical/utils": "^0.37.0",
+    "@lexkit/editor": "^0.0.37",
+    "axios": "^1.7.9",
+    "cloudinary": "^2.5.1",
+    "inngest": "^3.31.3",
+    "lexical": "^0.37.0",
+    "mongoose": "^8.10.0",
+    "next": "15.1.6",
+    "nodemailer": "^7.0.10",
+    "razorpay": "^2.9.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.5.0",
+    "recharts": "^3.3.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
