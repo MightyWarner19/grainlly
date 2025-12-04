@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="flex flex-col md:flex-row items-center justify-between gap-4 md:pl-20 py-14 md:py-0 bg-[#E6E9F2] my-16 rounded-xl overflow-hidden">
       <Image
         className="max-w-56"
-        src="/grainlly-demo/ChatGPT Image Dec 4, 2025, 12_39_04 PM.png"
+        src="/grainlly-demo/mmn.png"
         alt="cashew_butter_image"
         width={600}
         height={600}
