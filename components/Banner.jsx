@@ -20,7 +20,7 @@ const Banner = () => {
           Organic Products 
         </h2>
         <p className="max-w-[343px] font-medium text-gray-800/60">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas, enim vel consectetur hendrerit, nunc nulla bibendum nisl, sed ultrices velit nibh id nibh.
+          At Grainlly, we bring nature back to your plate, with grains grown in harmony with the soil, the seasons and the wisdom of our Indian farming traditions. Our mission is to nourish every home with pure grains that honour our roots, support our farmers, and promote a healthier, more conscious way of living.
           
         </p>
         <button onClick={() => router.push('/all-products')} className="group flex items-center justify-center gap-1 px-12 py-2.5 bg-lime-800 rounded text-white">
@@ -29,15 +29,15 @@ const Banner = () => {
         </button>
       </div>
       <Image
-        className="hidden md:block max-w-80"
-       src="/grainlly-demo/540 × 462(1).png"
+        className="hidden md:block max-w-80 mr-2"
+        src="/grainlly-demo/transparent_540x462.webp"
         alt="md_controller_image"
         width={600}
         height={600}
       />
       <Image
-        className="md:hidden"
-        src="/grainlly-demo/540 × 462(1).png"
+        className="md:hidden mr-2"
+        src="/grainlly-demo/transparent_540x462.webp"
         alt="sm_controller_image"
         width={600}
         height={600}

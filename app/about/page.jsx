@@ -31,7 +31,7 @@ export default function AboutPage() {
           </div>
           <div className="w-full">
             <Image
-              src="/grainlly-demo/634 × 543(1).png"
+              src="/grainlly-demo/transparent_634x543.webp"
               width={1200}
               height={800}
               alt="Shopping experience illustration"
