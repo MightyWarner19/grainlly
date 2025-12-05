@@ -44,7 +44,7 @@ const Navbar = () => {
             Products
           </Link>
           <Link href="/about" className="hover:text-gray-900 transition">
-            About
+            About Us
           </Link>
           <Link href="/blog" className="hover:text-gray-900 transition">
             Blog

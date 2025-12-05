@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -44,7 +44,7 @@ const Footer = () => {
             <h2 className="font-medium text-white mb-5">Get in touch</h2>
             <div className="text-sm space-y-2 text-gray-300">
               <p>+91 9504314314</p>
-              <p>suggestion@grainlly.com</p>
+              <p>support@grainlly.in</p>
               <p>Address: Office No. TI-A1/104, 1st Floor  BramhaCorp Business Park, Survey Number 7 Road New Kalyani Nagar, Vadgaonsheri, Pune-411014</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
@@ -59,7 +59,7 @@ const Footer = () => {
                 <FaInstagram size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61578609146141"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -69,17 +69,17 @@ const Footer = () => {
                 <FaFacebookF size={20} />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@Grainlly"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Twitter"
+                aria-label="Youtube"
                 className="text-gray-400 hover:text-white transition"
-                title="Twitter"
+                title="Youtube"
               >
-                <FaTwitter size={20} />
+                <FaYoutube size={20} />
               </a>
               <a
-                href="#"
+                href="www.linkedin.com/in/grainlly"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-gray-400">
-        Copyright 2025 © Grainlly E-Commerce All Right Reserved.
+        Copyright 2025 © Grainlly All Right Reserved.
       </p>
     </footer>
   );

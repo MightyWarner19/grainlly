@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { FaRegWindowClose } from "react-icons/fa";
+import { FaLinkedinIn, FaRegWindowClose } from "react-icons/fa";
 import Link from "next/link";
 import NextImage from "next/image";
 import { FaFacebookF, FaInstagram, FaYoutube, FaGoogle } from "react-icons/fa";
@@ -62,14 +62,17 @@ export default function AnnouncementBar({ onHeightChange }) {
           <Link href="https://www.instagram.com/grainlly_?igsh=MXIxOTVuaDU1YmE0Yg==" aria-label="Grainlly on Instagram" target="_blank" className="text-white  transition-colors">
             <FaInstagram size={18} />
           </Link>
-          <Link href="https://www.facebook.com/grainlly" aria-label="Grainlly on Facebook" target="_blank" className="text-white  transition-colors">
+          <Link href="https://www.facebook.com/profile.php?id=61578609146141" aria-label="Grainlly on Facebook" target="_blank" className="text-white  transition-colors">
             <FaFacebookF size={18} />
           </Link>
-          <Link href="https://www.youtube.com/@grainlly" aria-label="Grainlly on YouTube" target="_blank" className="text-white  transition-colors">
+          <Link href="https://www.youtube.com/@Grainlly" aria-label="Grainlly on YouTube" target="_blank" className="text-white  transition-colors">
             <FaYoutube size={20} />
           </Link>
-          <Link href="https://g.page/r/Grainlly" aria-label="Grainlly on Google" target="_blank" className="text-white  transition-colors">
+          {/* <Link href="https://g.page/r/Grainlly" aria-label="Grainlly on Google" target="_blank" className="text-white  transition-colors">
             <NextImage src="/google-my-business.svg" alt="google" className="w-5 h-5 object-contain text-white" width={20} height={20} />
+          </Link> */}
+          <Link href="www.linkedin.com/in/grainlly" aria-label="LinkedIn" target="_blank" className="text-white  transition-colors">
+            <FaLinkedinIn size={20} />
           </Link>
         </div>
         <button
