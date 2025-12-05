@@ -50,7 +50,7 @@ export default function ContactPage() {
                   <Image src="/icon-mail.svg" alt="Email" width={28} height={28} />
                 </div>
                 <div className="text-gray-800">
-                  <p className="font-normal">support@grainlly.in</p>
+                  <p className="font-normal">suggestion@grainlly.com</p>
                   
                 </div>
               </div>
