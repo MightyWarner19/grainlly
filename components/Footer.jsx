@@ -79,7 +79,7 @@ const Footer = () => {
                 <FaYoutube size={20} />
               </a>
               <a
-                href="www.linkedin.com/in/grainlly"
+                href="https://www.linkedin.com/in/grainlly"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
