@@ -23,6 +23,8 @@ const OrderSummary = () => {
     state: "",
   });
 
+  const [sheeping, setSheeping ] = useState(0); 
+
   // Indian States and Union Territories
   const indianStates = [
     "Andhra Pradesh",
@@ -500,10 +502,22 @@ const OrderSummary = () => {
             <p className="uppercase text-gray-600">Items {getCartCount()}</p>
             <p className="text-gray-800">{currency}{getCartAmount()}</p>
           </div>
+          {/* rest code here change according to your condition */}
+          {/* <div className="flex justify-between">
+            <p className="text-gray-600">Shipping Fee</p>
+
+            <p className="font-medium text-gray-800">Free</p>
+          </div> */}
+          {/* end rest code here */}
+
           <div className="flex justify-between">
             <p className="text-gray-600">Shipping Fee</p>
-            <p className="font-medium text-gray-800">Free</p>
+
+            <p className="font-medium text-gray-800">
+              {getCartAmount() > 2000 ? "Free" : `${currency}49`}
+            </p>
           </div>
+
           {/* <div className="flex justify-between">
             <p className="text-gray-600">Tax (2%)</p>
             <p className="font-medium text-gray-800">{currency}{Math.floor(getCartAmount() * 0.02)}</p>
@@ -511,7 +525,8 @@ const OrderSummary = () => {
           <div className="flex justify-between text-lg md:text-xl font-medium border-t pt-3">
             <p>Total</p>
             {/* <p>{currency}{getCartAmount() + Math.floor(getCartAmount() * 0.02)}</p> */}
-            <p>{currency}{getCartAmount()}</p>
+            {/* <p>{currency}{getCartAmount()}</p> old is here  */}
+            <p>{currency}{getCartAmount() > 2000 ? (getCartAmount()+0) : (getCartAmount() + 49)}</p>
 
           </div>
         </div>
