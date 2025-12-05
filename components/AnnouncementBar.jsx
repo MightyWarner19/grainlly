@@ -71,7 +71,7 @@ export default function AnnouncementBar({ onHeightChange }) {
           {/* <Link href="https://g.page/r/Grainlly" aria-label="Grainlly on Google" target="_blank" className="text-white  transition-colors">
             <NextImage src="/google-my-business.svg" alt="google" className="w-5 h-5 object-contain text-white" width={20} height={20} />
           </Link> */}
-          <Link href="www.linkedin.com/in/grainlly" aria-label="LinkedIn" target="_blank" className="text-white  transition-colors">
+          <Link href="https://www.linkedin.com/in/grainlly" aria-label="LinkedIn" target="_blank" className="text-white  transition-colors">
             <FaLinkedinIn size={20} />
           </Link>
         </div>
