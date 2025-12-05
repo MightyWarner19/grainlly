@@ -44,7 +44,7 @@ const Footer = () => {
             <h2 className="font-medium text-white mb-5">Get in touch</h2>
             <div className="text-sm space-y-2 text-gray-300">
               <p>+91 9504314314</p>
-              <p>support@grainlly.in</p>
+              <p>suggestion@grainlly.com</p>
               <p>Address: Office No. TI-A1/104, 1st Floor  BramhaCorp Business Park, Survey Number 7 Road New Kalyani Nagar, Vadgaonsheri, Pune-411014</p>
             </div>
             <div className="mt-4 flex items-center gap-4">
